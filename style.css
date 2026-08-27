@@ -184,8 +184,6 @@ main {
   margin: 0;
 }
 
-
-
 .item-cardp h3 {
   font-size: 20px;
   font-weight: 700;
@@ -213,7 +211,6 @@ main {
   gap: 10px;
   border-radius: 5px;
 }
-
 
 .item-cardp button img {
   width: 16px;
@@ -290,7 +287,6 @@ h1 {
   padding-top: 12px;
 }
 
-
 /* CONTACT */
 /* Contact Section */
 .contact {
@@ -366,7 +362,6 @@ textarea {
   padding: 15px 18px;
   border: 1.8px solid #5e3bee;
   border-radius: 8px;
-
 }
 
 input:focus,
@@ -420,3 +415,43 @@ button.submit:hover {
   color: #5e3bee;
   border: 2px solid #5e3bee;
 }
+
+/* FOOTER */
+/* 
+footer {
+  text-align: justify;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+footer h1 {
+  font-size: 134px;
+  color: #333;
+  margin: 10px;
+}
+
+footer nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+footer nav a {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+footer header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px;
+}
+
+footer header img {
+  height: 50px;
+  object-fit: cover;
+} */
