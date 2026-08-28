@@ -288,11 +288,12 @@ h1 {
 /* CONTACT */
 /* Contact Section */
 .contact {
+  margin-top: 100px;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
   padding: 100px 120px;
-  max-width: 1200px;
-  margin: 120px auto;
+  /* max-width: 1200px; */
+  /* margin: 120px auto; */
 }
 
 .contact-text {
@@ -414,8 +415,49 @@ button.submit:hover {
   border: 2px solid #5e3bee;
 }
 
+/* FOOTER */
+
+footer {
+  text-align: justify;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+footer h1 {
+  font-size: 134px;
+  color: #333;
+  margin: 10px;
+}
+
+footer nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+footer nav a {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+footer header {
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px;
+}
+
+footer header img {
+  height: 50px;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 768px) {
-  header{
+  header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -424,46 +466,52 @@ button.submit:hover {
     top: 0;
     z-index: 1000;
   }
-  header nav{
+  header nav {
     position: static;
   }
-  .hero{
+  .hero {
     /* height: 100vh; */
   }
-  .hero h1{
+  .hero h1 {
     font-size: 200px;
   }
-  .about{
+  .about {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:350px;
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
-    url(./asset/FAKHRIL\ FAKIH\ \(3\).gif);
-
+    gap: 350px;
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+      url(./asset/FAKHRIL\ FAKIH\ \(3\).gif);
   }
-  .about h1{
+  .about h1 {
     font-size: 100px;
     max-width: 100px;
     line-height: 120%;
     text-align: right;
   }
-  .about-text{
+  .about-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  .portfolio{
+  .portfolio {
     display: flex;
     flex-direction: column;
   }
-  .title-portfolio{
-    text-align:left;
+  .title-portfolio {
+    text-align: left;
   }
-  .cardsp{
+  .cardsp {
     display: flex;
     flex-direction: row;
     gap: 50px;
+  }
+  .container{
+    height: 100vh;
+  }
+  .flex{
+    display:flex;
+    flex-direction: row;
   }
 }
