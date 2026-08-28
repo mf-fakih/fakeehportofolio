@@ -151,7 +151,6 @@ main {
 .title-portfolio h5 {
   font-size: 21.33px;
   color: whitesmoke;
-  /* margin-bottom: 10px; */
 }
 
 .title-portfolio h2 {
@@ -204,7 +203,6 @@ main {
   color: #282938;
   border: none;
   font-weight: 600;
-  border-bottom: #eeaf3b 2.33px solid;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -416,42 +414,56 @@ button.submit:hover {
   border: 2px solid #5e3bee;
 }
 
-/* FOOTER */
-/* 
-footer {
-  text-align: justify;
-  padding: 20px;
-  background-color: #fff;
-  color: #333;
-}
+@media screen and (min-width: 768px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    top: 0;
+    z-index: 1000;
+  }
+  header nav{
+    position: static;
+  }
+  .hero{
+    /* height: 100vh; */
+  }
+  .hero h1{
+    font-size: 200px;
+  }
+  .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:350px;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url(./asset/FAKHRIL\ FAKIH\ \(3\).gif);
 
-footer h1 {
-  font-size: 134px;
-  color: #333;
-  margin: 10px;
+  }
+  .about h1{
+    font-size: 100px;
+    max-width: 100px;
+    line-height: 120%;
+    text-align: right;
+  }
+  .about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .portfolio{
+    display: flex;
+    flex-direction: column;
+  }
+  .title-portfolio{
+    text-align:left;
+  }
+  .cardsp{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
 }
-
-footer nav {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 150px;
-}
-
-footer nav a {
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-
-footer header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0 20px;
-}
-
-footer header img {
-  height: 50px;
-  object-fit: cover;
-} */
